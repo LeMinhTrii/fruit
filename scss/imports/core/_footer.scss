@@ -1,0 +1,164 @@
+// css footer
+.footer {
+  background: #0c5b11;
+  padding-top: 56px;
+  &_content {
+    &-top {
+      .wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        gap: 40px;
+        .item {
+          .title {
+            position: relative;
+            color: $white-cl;
+            text-align: justify;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            &::before {
+              position: absolute;
+              content: "";
+              width: 40px;
+              height: 2px;
+              background: $white-cl;
+              bottom: 0;
+              left: 0;
+            }
+          }
+          .desc {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            a {
+              color: $white-cl;
+              text-align: justify;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          &:nth-child(3) {
+            .name {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 10px;
+              span {
+                color: #028907;
+                text-align: justify;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 36px;
+              }
+            }
+            .desc {
+              a {
+                font-family: "Roboto", sans-serif;
+                color: #666;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: inline-block;
+              }
+            }
+            background-size: cover;
+            padding: 27px 30px 27px 50px;
+            background: url("../../../img/Rectangle 24.png") no-repeat;
+          }
+          &:nth-child(4) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            gap: 20px;
+            row-gap: 0;
+            .thumnail {
+              .circle {
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                background: $white-cl;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                }
+              }
+              .name {
+                color: $white-cl;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+                height: 30px;
+                font-family: "Roboto", sans-serif;
+              }
+              &:last-child {
+                .circle {
+                  background: unset;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &-bot {
+      background: $dark-cl;
+      .wrap {
+        color: $white-cl;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+      }
+    }
+  }
+  @include sm {
+    // CSS responsive tablet
+    &_content {
+      &-top {
+        .wrap {
+          justify-items: center;
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      &-bot {
+        .wrap {
+          flex-wrap: wrap;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  @include xs {
+    &_content {
+      &-top {
+        .wrap {
+          justify-items: flex-start;
+          grid-template-columns: 1fr;
+          .item {
+            &:last-child {
+              width: 100%;
+              grid-area: 3/1/4/2;
+              row-gap: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

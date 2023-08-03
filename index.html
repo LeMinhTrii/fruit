@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Fruit Tea</title>
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+
+    <!-- meta facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="dest/style.min.css" />
+    <link rel="stylesheet" href="dest/fonts.css" />
+  </head>
+
+  <!-- Mỗi body của mỗi page nên có class ví dụ homepage, aboutpage, contactpage... -->
+
+  <body class="homepage">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <ul class="header_content">
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Nhượng quyền</a></li>
+          <li>
+            <a href="./" class="logo">
+              <img src="./img/Screenshot_2023-07-07_at_10.22 1.png" alt="" />
+            </a>
+          </li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Tin Tức</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+          <li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                fill="#fff"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a href="#" class="menu__item">Trang chủ</a></li>
+            <li><a href="#" class="menu__item">Giới thiệu</a></li>
+            <li><a href="#" class="menu__item">Nhượng quyền</a></li>
+            <li><a href="#" class="menu__item">Sản phẩm</a></li>
+            <li><a href="#" class="menu__item">Tin Tức</a></li>
+            <li><a href="#" class="menu__item">Liên Hệ</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="banner">
+        <div class="thumnail">
+          <img src="./img/Rectangle 3.jpg" alt="" />
+        </div>
+        <img src="./img/Rectangle 4.png" alt="" class="absone" />
+        <img src="./img/bf_section_trang_trai_2 1.png" alt="" class="abstwo" />
+      </section>
+      <section class="outstanding">
+        <div class="container">
+          <div class="outstanding_content">
+            <div class="outstanding_content-textbox">
+              <img src="./img/ice-tea 1.png" alt="" />
+              <span>SẢN PHẨM NỔI BẬT</span>
+            </div>
+            <div
+              class="outstanding_content-box"
+              data-flickity='{ "cellAlign": "left", "contain": true,"pageDots": false,"wrapAround": true,"freeScroll": true,"autoPlay": 2500 }'
+            >
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ DƯA LƯỚI</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (1).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ BÍ ĐAO</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (2).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ DÂU</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (3).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ MĂNG CỤC</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (4).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ MÃNG CẦU</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (5).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ ĐÀO</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ DƯA LƯỚI</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (1).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ BÍ ĐAO</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (2).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ DÂU</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (3).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ MĂNG CỤC</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (4).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ MÃNG CẦU</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 5 (5).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">TRÀ ĐÀO</p>
+                  <div class="price-wrap">
+                    <a href="#" class="--green-cl">Giá sỉ</a>
+                    <a href="#">Giá lẻ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about_content">
+            <div class="about_content-thumnail">
+              <img src="./img/Rectangle 8.jpg" alt="" />
+            </div>
+            <div class="about_content-textbox">
+              <h2 class="heading">GIỚI THIỆU</h2>
+              <p class="text">Fruit tea VN</p>
+              <p class="text --bold">Trà bí đao An Nhiên</p>
+              <div class="list-item">
+                <div class="item">
+                  <img src="./img/tea 1.svg" alt="" />
+                </div>
+                <div class="item">
+                  <img src="./img/ice-tea (1) 1.svg" alt="" />
+                </div>
+                <div class="item">
+                  <img src="./img/tea (1) 1.svg" alt="" />
+                </div>
+              </div>
+              <p class="text --sm">
+                Trà bí đao An Nhiên - Hương vị tự nhiên giữa cuộc sống phồn hoa
+              </p>
+              <p class="desc">
+                Chào mừng đến với thế giới trà thảo dược đầy thần thái của Trà
+                bí đao An Nhiên! Nếu bạn đang tìm kiếm một hương vị tự nhiên,
+                thanh khiết và bổ dưỡng giữa cuộc sống phức tạp và nhộn nhịp
+                ngày nay, hãy cùng chúng tôi khám phá dòng trà bí đao độc đáo
+                này.
+              </p>
+              <p class="desc">
+                Trà bí đao An Nhiên được sản xuất với tâm huyết và cảm hứng từ
+                vẻ đẹp tự nhiên, từ những trái bí đao chín mọng trong vườn rau
+                của các nông hộ Việt Nam. Đội ngũ chuyên gia tại An Nhiên đã kết
+                hợp tinh hoa của trà và bí đao, tạo nên một sản phẩm trà độc đáo
+                với hương thơm quyến rũ và vị ngọt dịu nhưng không kém phần tinh
+                tế.
+              </p>
+              <a href="#" class="btn-more">
+                <span class="text">Xem thêm</span>
+                <img src="./img/play-button 1.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="price">
+        <div class="container">
+          <div class="price_content">
+            <div class="price_content-form">
+              <h3 class="heading">Liên hệ nhận báo giá</h3>
+              <p class="desc">
+                Hãy để lại liên hệ, chúng tôi sẽ liên hệ sớm nhất có thể!
+              </p>
+              <div class="form-group">
+                <input type="text" placeholder="Họ và tên:" />
+                <input type="number" min="0" placeholder="SĐT:" />
+                <input type="email" placeholder="Email:" />
+                <textarea placeholder="Nội dung:"></textarea>
+                <button type="submit">GỬI NGAY</button>
+              </div>
+            </div>
+            <div class="price_content-thumnail">
+              <img src="./img/Rectangle 9.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="news">
+        <div class="container">
+          <div class="news_content">
+            <div class="news_content-textbox">
+              <h2 class="heading">TIN TỨC NỔI BẬT</h2>
+              <p class="desc">Dưới đây là những tin mới nhất của hôm nay!</p>
+            </div>
+            <div class="news_content-box owl-carousel">
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 14 (1).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    Những loại trà giải nhiệt cho mùa hè hãy xem thêm nhé
+                  </p>
+                  <p class="desc">
+                    Trà bí đao là một thức uống dễ tìm thấy ở Việt Nam vì nó có
+                    công dụng giải nhiệt, thanh lọc cơ thể. Sau đây bạn có thể
+                    tham khảo,...
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 16.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    Cách nấu nước Sâm Bí Đao rất thơm hoàn toàn không bị chua
+                    tại nhà
+                  </p>
+                  <p class="desc">
+                    Nước sâm bí đao là loại thức uống vừa có tác dụng giải khát
+                    vừa thanh nhiệt cho cơ thể. Một ly nước sâm bí đao vào ngày
+                    hè sẽ giúp bạn lấy lại năng lượng. Cách nấu sâm bí đao cũng
+                    rất đơn giản, chỉ cần bạn bỏ chút thời gian là đã có một...
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 15.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    +10 Cách Nấu Trà Bí Đao Thơm Ngon Bổ Dưỡng Tại Nhà
+                  </p>
+                  <p class="desc">
+                    Trà bí đao là một thức uống dễ tìm thấy ở Việt Nam vì nó có
+                    công dụng giải nhiệt, thanh lọc cơ thể. Sau đây bạn có thể
+                    tham khảo,...
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 14 (1).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    Những loại trà giải nhiệt cho mùa hè hãy xem thêm nhé
+                  </p>
+                  <p class="desc">
+                    Trà bí đao là một thức uống dễ tìm thấy ở Việt Nam vì nó có
+                    công dụng giải nhiệt, thanh lọc cơ thể. Sau đây bạn có thể
+                    tham khảo,...
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 16.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    Cách nấu nước Sâm Bí Đao rất thơm hoàn toàn không bị chua
+                    tại nhà
+                  </p>
+                  <p class="desc">
+                    Nước sâm bí đao là loại thức uống vừa có tác dụng giải khát
+                    vừa thanh nhiệt cho cơ thể. Một ly nước sâm bí đao vào ngày
+                    hè sẽ giúp bạn lấy lại năng lượng. Cách nấu sâm bí đao cũng
+                    rất đơn giản, chỉ cần bạn bỏ chút thời gian là đã có một...
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="thumnail">
+                  <img src="./img/Rectangle 15.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <p class="name">
+                    +10 Cách Nấu Trà Bí Đao Thơm Ngon Bổ Dưỡng Tại Nhà
+                  </p>
+                  <p class="desc">
+                    Trà bí đao là một thức uống dễ tìm thấy ở Việt Nam vì nó có
+                    công dụng giải nhiệt, thanh lọc cơ thể. Sau đây bạn có thể
+                    tham khảo,...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="footer_content-top">
+          <div class="container wrap">
+            <div class="item">
+              <p class="title">Chính sách</p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Thanh toán</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Thanh toán</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Vận chuyển</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Bảo mật</a>
+              </p>
+            </div>
+            <div class="item">
+              <p class="title">Về chúng tôi</p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Giới thiệu</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Sản phẩm</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Tin tức</a>
+              </p>
+              <p class="desc">
+                <img src="./img/next (13) 1.png" alt="" />
+                <a href="#">Liên hệ</a>
+              </p>
+            </div>
+            <div class="item">
+              <p class="name">
+                <img src="./img/tea-leaves 1.png" alt="" />
+                <span>Trà bí đao An Nhiên</span>
+              </p>
+              <p class="desc">
+                <img src="./img/fast-foward (1) 1.png" alt="" />
+                <a href="#"
+                  >Địa chỉ: F5, 12A ấp 6, xã Lê Minh Xuân, Bình Chánh</a
+                >
+              </p>
+              <p class="desc">
+                <img src="./img/fast-foward (1) 1.png" alt="" />
+                <a href="mailto:teabidaoannhien2610@gmail.com"
+                  >Email: teabidaoannhien2610@gmail.com</a
+                >
+              </p>
+              <p class="desc">
+                <img src="./img/fast-foward (1) 1.png" alt="" />
+                <a href="tel:0933337463">Hotline: 0933337463</a>
+              </p>
+              <p class="desc">
+                <img src="./img/fast-foward (1) 1.png" alt="" />
+                <a href="#">Website: teabidaoannhien.com</a>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumnail">
+                <div class="circle">
+                  <img src="./img/facebook (1) 1.png" alt="" />
+                </div>
+                <p class="name">Facebook</p>
+              </div>
+              <div class="thumnail">
+                <div class="circle">
+                  <img src="./img/facebook (1) 2.png" alt="" />
+                </div>
+                <p class="name">Tiktok</p>
+              </div>
+              <div class="thumnail">
+                <div class="circle">
+                  <img src="./img/facebook (1) 3.png" alt="" />
+                </div>
+                <p class="name">Youtube</p>
+              </div>
+              <div class="thumnail">
+                <div class="circle">
+                  <img src="./img/arrow-alt-circle-up.png" alt="" />
+                </div>
+                <p class="name"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_content-bot">
+          <div class="container wrap">
+            <div class="left">
+              2023 Copyright © Trà Bí Đao An Nhiên . All rights reserved. Design
+              by sotagroup.vn
+            </div>
+            <div class="right">Online: 15 | Hôm Nay: 8 | Tổng: 168</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script src=" js/libs/owl.carousel.min.js "></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="dest/main.js"></script>
+  </body>
+</html>
