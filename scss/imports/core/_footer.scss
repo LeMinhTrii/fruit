@@ -69,9 +69,9 @@
                 display: inline-block;
               }
             }
-            background-size: cover;
             padding: 27px 30px 27px 50px;
             background: url("../../../img/Rectangle 24.png") no-repeat;
+            background-size: cover !important;
           }
           &:nth-child(4) {
             display: grid;
